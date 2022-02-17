@@ -4,3 +4,7 @@ In this project focus on Run-Time integration (client side) approach (with Webpa
 
 
 There are two microfrontends: ProductsList and Cart 
+
+Products runs on http://localhost:8081/
+
+Container runs on http://localhost:8080/
