@@ -17,7 +17,7 @@ const mount = (el) => {
 if (process.env.NODE_ENV === "development") {
 
     // Check to see we are indeed in isolation i.e. using local index.html file and NOT through Container app
-    const el = document.querySelector("#dev-products") // Because dev-products <div> only exists in the local html file (ASSUMPTION)
+    const el = document.querySelector("#dev-products"); // Because dev-products <div> only exists in the local html file (ASSUMPTION)
     if(el) {
         mount(el);
     }
