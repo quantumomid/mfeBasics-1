@@ -1,15 +1,20 @@
-# Microfrontends with React
+# Microfrontends with React 🔬
 
-In this project focus on Run-Time integration (client side) approach (with Webpack Module Federation) - therefore after container gets loaded in the browser - it gets access to the ProductsList source code. 
+A small starter learning project to gain some introduction to the incredible world of Microfrontends.
 
-A small starter learning project to gain some introduction to the world of microfrontends.
+There are two microfrontends in this project: ProductsList (products) and Cart. There is also the host or Container app. 
 
-There are two microfrontends: ProductsList and Cart 
+In this project, I focus on the Run-Time integration (client side) approach with Webpack Module Federation. Therefore the Container gets access to the Products and Cart source code after it loads in the browser. 
 
+## Running in isolation
+
+You can run either of the microfrontends in isolation by navigating to the products or cart folders inside of ecommerce and running the command `npm start`.
 - Products runs on http://localhost:8081/
 - Cart runs on http://localhost:8082/
 
+## Running together
 
-There is also a Host, i.e. Container:
+For the complete experience of the microfrontends, you will need to run all three parts (cart, product and container) on three separate terminals using the command `npm start`.
 
-Container runs on http://localhost:8080/
+Navigate to http://localhost:8080/ in your browser to see the container app holding both microfrontends.
+
